@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    margin: 50px 0;
+}
+.common-section{
+    margin: 50px 0;
+}
+.top-section{
+    display: flex;
+    margin: 0px 50px 0px 0px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 90%;
+    padding-left: 5%;
+}
+.half-width h2{
+    color:#575757;
+    margin:22px 0;
+}
+.special-col{
+    color:#FB934A;
+    font-weight: bolder;
+}
+.contex-first{
+    margin: 125px 0 0 0;
+    font-weight: bold;
+}
+
+.half-width p{
+    color: #A1A1A1;
+    font-weight: 300;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+.order-now{
+    color: #fff;
+    background-image: linear-gradient(#FB934A,#FD5232);
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px #FB934A;
+}
+.top-menu{
+    display: flex;
+    margin: 5px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #575757;
+    padding: 20px;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+     color: #fff;
+    transition: 1s;
+    background-image: linear-gradient(#FC8F49,#FD5232);
+    border-radius: 50px;
+}
+#menu{
+    float: right;
+    width: 50%;
+    margin: 20px;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    height: 90px;
+    width: 100px;
+    
+}
+.logo-menu{
+    margin-left: 50px
+}
+.menu{
+    margin-left: 70px
+}
