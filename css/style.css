@@ -88,7 +88,10 @@ section{
     margin-left: 50px
 }
 .menu{
-    margin-left: 70px
+    margin-left: 200px
+}
+.first-sec-image{
+    padding: 0 0 0 25% !important;
 }
 #about-me{
     background-image: url(../images/shapes/7.png);
@@ -108,11 +111,47 @@ section{
 }
 .about-contex h2{
     margin-bottom: 50px;
+    color:#707070;
 
 }
 .about-contex p{
     margin-bottom: 100px;
+    color: #575757;
 }
 .about-contex a{
     margin-top: 50px;
+}
+.my-recipies{
+    margin: 0 auto;
+} 
+.my-recipie-head{
+    margin-bottom: 20px !important;
+}
+.my-recipies h2,p{
+    color: #676767;
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+
+} 
+.recipie-one,.recipie-two,.recipie-three{
+    width: 22%;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 20px;
+    padding: 3%;
+    margin: auto;
+    align-content: center;
+}
+.recipie-one h3,.recipie-two h3,.recipie-three h3{
+    font-size: 20px;
+    color: #18191F;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.recipie-one p,.recipie-two p,.recipie-three p{
+    margin-left: 20px;
+    color:#606162;
+    text-align: left;
+    font-weight: 300;
+    width: 300px;
 }
