@@ -85,7 +85,7 @@ section{
     
 }
 .logo-menu{
-    margin-left: 50px
+    margin-left: 50px;
 }
 .menu{
     margin-left: 200px
@@ -122,8 +122,10 @@ section{
     margin-top: 50px;
 }
 .my-recipies{
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
+    overflow: hidden;
 } 
+
 .my-recipie-head{
     margin-bottom: 20px !important;
 }
@@ -132,7 +134,6 @@ section{
     width: 550px;
     margin: 0 auto;
     text-align: center;
-
 } 
 .recipie-one,.recipie-two,.recipie-three{
     width: 22%;
@@ -154,4 +155,43 @@ section{
     text-align: left;
     font-weight: 300;
     width: 300px;
+}
+.user-data{
+    margin: 100px auto;
+}
+.user{
+    box-shadow: 10px 10px 20px #747070;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 25px;
+}
+.data-one,.data-two,.data-three{
+    margin: 0 auto !important;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    
+}
+.data-one h2,.data-two h2,.data-three h2{
+    margin: 10px;
+}
+.data-one p,.data-two p,.data-three p{
+    width: auto;
+}
+.footer{
+    background-color: #0B0D17;
+    text-align: center;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+.footer h2{
+    color: #FC8545;
+}
+.footer-col{
+    color: #575758;
+}
+.footer p{
+    color: #fff;
+    margin-bottom: 50px;
 }
