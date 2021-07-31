@@ -35,7 +35,9 @@ section{
     margin: 125px 0 0 0;
     font-weight: bold;
 }
-
+.contex-first p{
+    text-align: left;
+}
 .half-width p{
     color: #A1A1A1;
     font-weight: 300;
@@ -117,6 +119,7 @@ section{
 .about-contex p{
     margin-bottom: 100px;
     color: #575757;
+    text-align: left;
 }
 .about-contex a{
     margin-top: 50px;
